@@ -1,0 +1,63 @@
+window:
+  padding:
+    x: 10
+    y: 10
+  class:
+    instance: Alacritty
+    general: Alacritty
+  opacity: 0.55
+  decorations: none
+
+scrolling:
+  history: 10000
+  multiplier: 3
+
+font:
+  normal:
+    family: JetBrainsMono
+    style:  Regular
+  bold:
+    family: JetBrainsMono
+    style:  Bold
+  italic:
+    family: JetBrainsMono
+    style:  Italic
+  bold_italic:
+    family: JetBrainsMono
+    style: Bold Italic
+  size: 11
+draw_bold_text_with_bright_colors: true
+colors:
+  primary:
+    background: "#11121F"
+    foreground: "#a9b1d6"
+  normal:
+    black: "#32344b"
+    red: "#f7768f"
+    green: "#9ece6b"
+    yellow: "#e0af69"
+    blue: "#7aa2f8"
+    magenta: "#ad8ee7"
+    cyan: "#449dac"
+    white: "#787c9A"
+  bright:
+    black: "#444b6c"
+    red: "#ff7a95"
+    green: "#b9f27e"
+    yellow: "#ff9e66"
+    blue: "#7da6ff"
+    magenta: "#bb9af8"
+    cyan: "#0db9d9"
+    white: "#acb0d1"
+cursor:
+  style:
+   shape: Block
+   blinking: Never
+selection:
+  save_to_clipboard: false
+
+shell:
+  program: /usr/bin/fish
+
+key_bindings:
+  - { key: Return, mods: Super|Shift, action: SpawnNewInstance }
